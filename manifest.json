@@ -1,0 +1,21 @@
+{
+  "name": "Safe Computer Use",
+  "version": "1.0",
+  "description": "Reminds you to follow 20-20-20 rule to protect your eyesight and take hourly break to prevent you from dying at your desk",
+  "permissions": ["storage", "alarms" , "notifications"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action":{
+    "default_title": "Safe Computer Use",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16":"rsz_safe16.png",
+    "32": "rsz_safe32.png",
+    "48": "rsz_safe48.png",
+    "128": "rsz_safe128.png"
+  },
+  "manifest_version": 2
+}
